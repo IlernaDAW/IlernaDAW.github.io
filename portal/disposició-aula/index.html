@@ -85,6 +85,16 @@
       text-align: center;
       margin-top: 0rem;
     }
+
+    /* Responsive text sizes for mobile */
+    @media (max-width: 768px) {
+      .cards > div:not(:empty) > div:nth-child(1) {
+        font-size: 8px;
+      }
+      .cards > div:not(:empty) > div:nth-child(2) {
+        font-size: 7px;
+      }
+    }
   </style>
 </head>
 <body class="font-sans bg-ilerna-negre m-0 min-h-screen text-gray-800">
